@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,18 @@
   <title>Chat App Template</title>
   <link rel="stylesheet" href="bootstrap3.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="chat.css">
+
+  <script src="script.js" defer></script>
 </head>
+
 <body>
   <div id="app" class="app">
+
+    <!-- Loader -->
+    <div class='spinner-wrapper'>
+      <div class="spinner"></div>
+    </div>
+    
 
     <!-- LEFT SECTION -->
 
@@ -29,7 +39,7 @@
           <div class="profile friends-photo">
             <img src="images/ava2.jpg" alt="">
           </div>
-          
+
           <div class="friends-credent">
             <!-- name -->
             <span class="friends-name">Mario Gomez</span>
@@ -45,7 +55,7 @@
           <div class="profile friends-photo">
             <img src="images/ava3.jpg" alt="">
           </div>
-          
+
           <div class="friends-credent">
             <!-- name -->
             <span class="friends-name">Andre Silva</span>
@@ -61,7 +71,7 @@
           <div class="profile friends-photo">
             <img src="images/ava5.jpg" alt="">
           </div>
-          
+
           <div class="friends-credent">
             <!-- name -->
             <span class="friends-name">Marco Reus</span>
@@ -77,7 +87,7 @@
           <div class="profile friends-photo">
             <img src="images/ava6.jpg" alt="">
           </div>
-          
+
           <div class="friends-credent">
             <!-- name -->
             <span class="friends-name">Antoine Griezmann</span>
@@ -93,7 +103,7 @@
           <div class="profile friends-photo">
             <img src="images/ava7.jpg" alt="">
           </div>
-          
+
           <div class="friends-credent">
             <!-- name -->
             <span class="friends-name">Manuel Neuer</span>
@@ -109,7 +119,7 @@
           <div class="profile friends-photo">
             <img src="images/ava1.jpg" alt="">
           </div>
-          
+
           <div class="friends-credent">
             <!-- name -->
             <span class="friends-name">Mattia de Sciglio</span>
@@ -173,7 +183,7 @@
           </div>
         </div>
 
-        
+
         <!-- YOUR CHAT TEMPLATE -->
         <div id="your-chat" class="your-chat">
           <p class="your-chat-balloon">'sup</p>
@@ -187,7 +197,10 @@
           </div>
           <div class="friends-chat-content">
             <p class="friends-chat-name">Mario Gomez</p>
-            <p class="friends-chat-balloon">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque vero iusto perferendis nemo ad ipsam mollitia ducimus? Et possimus numquam minus impedit tempora, nulla, enim in magni accusamus dolore fugiat nisi culpa exercitationem fuga consequatur eos aliquam perspiciatis. Minima praesentium expedita facere quod labore magnam eveniet commodi veniam porro placeat?</p>
+            <p class="friends-chat-balloon">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque vero iusto
+              perferendis nemo ad ipsam mollitia ducimus? Et possimus numquam minus impedit tempora, nulla, enim in
+              magni accusamus dolore fugiat nisi culpa exercitationem fuga consequatur eos aliquam perspiciatis. Minima
+              praesentium expedita facere quod labore magnam eveniet commodi veniam porro placeat?</p>
             <h5 class="chat-datetime">Sun, Aug 30 | 15:41</h5>
           </div>
         </div>
@@ -199,14 +212,17 @@
           </div>
           <div class="friends-chat-content">
             <p class="friends-chat-name">Mario Gomez</p>
-            <p class="friends-chat-balloon">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, consequatur!</p>
+            <p class="friends-chat-balloon">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+              consequatur!</p>
             <h5 class="chat-datetime">Sun, Aug 30 | 15:41</h5>
           </div>
         </div>
 
         <!-- YOUR CHAT TEMPLATE -->
         <div id="your-chat" class="your-chat">
-          <p class="your-chat-balloon">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae amet modi aliquid molestiae. Adipisci, similique dolor expedita error explicabo at cupiditate exercitationem dolorem corrupti. Pariatur.</p>
+          <p class="your-chat-balloon">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae amet modi
+            aliquid molestiae. Adipisci, similique dolor expedita error explicabo at cupiditate exercitationem dolorem
+            corrupti. Pariatur.</p>
           <p class="chat-datetime"><span class="glyphicon glyphicon-ok"></span> Sun, Aug 30 | 15:45</p>
         </div>
 
@@ -269,8 +285,9 @@
 
 
 
-    <!-- jQuey, Popper, BootstrapJS -->
-    <script src="bootstrap3.3/js/jquery-3.3.1.min.js"></script>
-    <script src="bootstrap3.3/js/bootstrap.min.js"></script>
+  <!-- jQuey, Popper, BootstrapJS -->
+  <script src="bootstrap3.3/js/jquery-3.3.1.min.js"></script>
+  <script src="bootstrap3.3/js/bootstrap.min.js"></script>
 </body>
+
 </html>
