@@ -4,11 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
+    <title>Contact</title>
 
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="../css/coloring.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/txtformatting.css">
+    <link rel="stylesheet" type="text/css" href="../css/shadow.css">
+    <link rel="stylesheet" type="text/css" href="../css/loading.css">
     <link rel="stylesheet" href="contact.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/cursor.css"> -->
+    <!-- css end -->
 </head>
 <body>
-    this is contact
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="navbar-nav">
+                <div class="navbar-brand">
+                    <!-- You can change it with Image if you want. -->
+                    <span class="navbar-brand-txt"><a class="txt-bold type-1" href="/">SpyChats</a></span>
+                </div>
+
+                <span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar(this)"
+                        class="fas fa-bars"></i></span>
+
+                        <div class="navs" id="navs">
+                            <!-- You can change the href value and the text value -->
+                            <div class="navs-item notbtn"><a href="../Chat/chat.html" class="txt-uppercase">Chat</a></div>
+                            <div class="navs-item notbtn"><a href="../About/about.html" class="txt-uppercase">About</a></div>
+                            <div class="navs-item notbtn"><a href="../Contact/contact.html" class="txt-uppercase">Contact</a></div>
+                            <div class="navs-item"><a href="../Login/login.html"><button class="btn txt-uppercase shadow-sm">Login</button></a></div>
+                            <div class="navs-item"><a href="../Register/register.html"><button class="btn txt-uppercase shadow-sm">Register</button></a></div>
+                          </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <div class="contact-form">
+        <h3>Contact Us</h3>
+        <form>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="email" id="email" placeholder="Enter your Email">
+            <input type="text" name="phone" id="phone" placeholder="Enter your Mobile Number">
+            <input type="text" name="suggestion" id="suggestion" placeholder="Your Recommendation/Suggestion/Problem">
+            <button id="submitForm">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
