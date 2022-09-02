@@ -34,3 +34,4 @@ window.onload = () => {
 		body.classList.remove("on")
 	}, 1510);
 }
+
